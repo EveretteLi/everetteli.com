@@ -1,0 +1,9 @@
+# mp4 files
+*.mp4
+**/*.mp4
+
+# pdf files
+*.pdf
+**/*.pdf
+
+.DS_Store

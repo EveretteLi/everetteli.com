@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Everette Li">
+    <meta name="description" content="an online resume">
+    <meta name="keywords" content="Everette Li, resume, projects">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- theme -->
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2e5138baf6.js" crossorigin="anonymous"></script>
+
+    <title>Everette Li</title>
+  </head>
+  <header style="font-family: sans-serif;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 rounded">
+    <a class="navbar-brand ml-5" href="https://www.bilibili.com/">( ′・ω・' )</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item">
+                <a class="nav-link " href="#" style="font-size: x-large">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/resume.html" style="font-size: x-large">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <!-- <a class="nav-link" href="#" style="font-size: x-large">Projects</a> -->
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" style="font-size: x-large"> Projects </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="#" onclick="alertFunction()">Zero-day detection</a></li>
+                  <li><a class="dropdown-item nav-link" href="#" onclick="alertFunction()">Auto Video Pipeline</a></li>
+                  <li><a class="dropdown-item nav-link" href="http://www.big-dataservice.net" target="_blank">Big Data Service</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: x-large" onclick="alertFunction()">Transcript</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  </header>
+  <body>
+    <section id="main">
+      <!-- self-intro front page -->
+      <div id="firstPage">
+        <div style="padding-top: 15rem;"></div>
+        <div class="container mx-auto d-flex">
+          <div class="mx-auto">
+            <div class="mx-auto d-flex" style="text-align: justify;">
+              <h1 class="display-1">Everette Li</h1>
+            </div>
+            <div style="padding-bottom: 5rem;"></div>
+            <div class="mx-auto d-flex" style="text-align: justify;">
+              <h1 class="display-4 mx-auto" style="font-family: sans-serif">( ´_ゝ`)ノ</h1>
+            </div>
+            <div style="padding-bottom: 5rem;"></div>
+            <div class="mx-auto d-flex" style="text-align: justify;">
+              <h1 class="display-4"> A Hacker & Designer</h1>
+            </div>
+          </div>
+        </div>
+        <div style="padding-bottom: 15rem;"></div>
+      </div>
+      <div style="margin-bottom: 10rem;"></div>
+      <!-- video and stuffs -->
+      <div id="videoPhotoLink" class="container row mx-auto">
+        <div id="video" class="mx-auto col-12">
+          <!-- video -->
+          <div class="mx-auto">
+            <h1 class="display-4 mx-auto text-center">WHO AM I</h1>
+          </div>
+          <div class="mx-auto d-flex embed-responsive embed-responsive-16by9">
+            <video controls="true" class="embed-responsive-item">
+              <source src="assets/self_introduction.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <div style="padding-bottom: 10rem;"></div>
+        </div>
+        
+        <!-- photo and link -->
+        <div class="mx-auto">
+          <h1 class="display-4">More about myself ...</h1>
+          <div style="padding-bottom: 10rem;"></div>
+        </div>
+        <div class="mx-auto row">
+          <!-- photo -->
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+            <img id="photo" src="images/self.jpg" class="rounded img-thumbnail d-flex" alt="PHOTO"/>
+          </div>
+          <!-- link -->
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center row">
+            <div class="clickable text-center col-12"
+            onclick="window.open('https://www.linkedin.com/in/everette-li/');" target="_blank">
+              <span class="icons"><i class="fab fa-linkedin"></i></span>
+              <h3 class="text-center">LinkedIn</h1>
+            </div>
+            <div class="clickable mx-auto text-center col-12" target="_blank" 
+            onclick="window.open('https://github.com/EveretteLi');">
+              <span class="icons"><i class="fab fa-github-square"></i></span>
+              <h3 class="text-center">Github</h1>
+            </div>
+            <div class="clickable mx-auto text-center col-12" target="_blank" 
+            onclick="window.open('mailto:everetteli12@gmail.com');">
+              <span class="icons"><i class="fas fa-paper-plane"></i></span>
+              <h3 class="text-center">everetteli12@gmail.com</h1>
+            </div>
+          </div>
+        </div>
+        <div style="padding-bottom: 10rem;"></div>
+      </div>
+      <div id="resume" class="container row mx-auto">
+        <h1 class="text-center col-12">Youping(Everette) Li</h1>
+        <div class="row col-12 text-center">
+          <p class="col-lg-4 col-md-4 col-sm-12">+1 (510) 600 5430</p>
+          <p class="col-lg-4 col-md-4 col-sm-12">everetteli.com</p>
+          <p class="col-lg-4 col-md-4 col-sm-12">everetteli12@gmail.com</p>
+        </div>
+        <div class="col-12" style="text-align: justify;">
+          <hr>
+          <h4>Education</h4>
+          <p>
+            <b>Candidate for B.S in Computer Science with Minor in Math</b><br>
+            <span style="float: left;">San Jose State University</span>
+            <span style="float: right;">from 2016 to 2020(expected)</span><br>
+          </p>
+          <hr>
+          <h4>Experiences</h4>
+          <p>
+            <b>Software Engineer at SabaChat, Inc</b><br>
+            <span class="semi-focus" style="float: left;">June 15, 2020 - August 18, 2020</span><br><br>
+            Design and build an auto pipeline for video generating and uploading. This pipeline turns the daily stock market data
+            into videos. These videos will be automatically uploaded under the company’s YouTube channel.
+          </p>
+          <ul>
+            <li>Upload to YouTube through <b class="semi-focus">Youtube Data API v3 with OAuth</b> authentication flow</li>
+            <li>Manage the project on a server</li>
+            <li>Design a complete pipeline that turns raw data into YouTube content</li>
+            <li>Embed and modify open-source projects</li>
+          </ul>
+          <b class="semi-focus">Setup rack servers</b> from the data center.
+          <ul>
+            <li>Select and maintenance the basic hardware(memory, data cable, and more) for commercial servers</li>
+            <li>Install OS then configure the basic network(IP address) and basic server-side services (SSH, SFTP)</li>
+          </ul>
+          <hr>
+          <p>
+            <b>Weather Data Quality Control Research(Leading Research Assistant)</b><br>
+            <span class="semi-focus" style="float: left;">June 2019 to current - SJSU/CalFire</span><br>
+            <span>Supervisor:<a href="https://www.researchgate.net/profile/Jerry_Gao"
+                target="_blank">Dr. Jerry Gao</a></span><br><br>
+            Current weather data quality control algorithms used by meteorologists are mostly done in a conservative statistical
+            way. In the research, I am <b class="semi-focus">benchmarking the most frequently used QC algorithms</b> 
+            along with the <b class="semi-focus">original Deep Learning model</b>.
+          </p>
+          <ul>
+            <li>Set the goal and design the strategy of this research</li>
+            <li>Compares ML models and design the learning pipeline</li>
+            <li>Collect and integrate useful datasets from online resources</li>
+            <li>Conduct experiences and write the research paper</li>
+          </ul>
+          <hr>
+          <p>
+            <b>Conference Coordinator of IEEE 2019 Industry Summit on Future Technology for Smart Cities</b><br>
+            <span class="semi-focus" style="float: left;">Apr 6, 2019 - San Jose/Fremont</span><br>
+          </p>
+          <ul>
+            <li>Assisted and coordinated the establishment of conference program, including the arrangement of schedule and the
+            management of speaker information</li>
+            <li>Created and administrated the landing pages for the IEEE 2019 Industry Summit on Future Technology for Smart Cities and
+            four other co-located IEEE conferences</li>
+            <li>Collect and integrate useful datasets from online resources</li>
+            <li>Coordinated and helped set up the layout of the conference meeting space at DoubleTree by Hilton</li>
+            <li>Example website: <a href="http://www.big-dataservice.net" target="_blank">big-dataservice.net</a></li>
+          </ul>
+          <hr>
+          <p>
+            <b>RBF Neural Network Research(Leading Research Assistant)</b><br>
+            <span class="semi-focus" style="float: left;">May 2018 to Dec 2018 - SJSU</span><br>
+            <span>Supervisor:<a href="https://www.researchgate.net/profile/T_Y_Lin" target="_blank">Dr. T.Y Lin</a></span><br><br>
+            
+            Exploring the adaptability of DNN architecture on complex functions, by modifying the currently popular models, like
+            CNN, while designing new original algorithms using Radial Basis Function.
+          </p>
+          <hr>
+          <h4>Skills</h4>
+          <span class="semi-focus" style="float: left;">Programming Languages:</span><br>
+          <p>
+            Professional with: Python, Java<br>
+            Familiar with: Flutter, Scala, MATLAB, C, XML, HTML, CSS, MIPS Assembly, C++, Shell, JS<br>
+          </p>
+          <span class="semi-focus" style="float: left;">Frameworks and Packages:</span><br>
+          <p> Keras, TF, Pandas, Flask, Javafx, Junit, jinja2<br></p>
+          <span class="semi-focus" style="float: left;">Tools:</span><br>
+          <p>
+            git, Apache 2, AWS S3, DigitalOcean, Android Studio, Octave, Google Analytics, Unreal Engine 4, Mars, Google Colab, Jupyter Notebook<br><br>
+            Design purpose: LaTex, Sketch, Prototyping, Overleaf.
+          </p>
+          <span class="semi-focus" style="float: left;">Database:</span><br>
+          <p>MySQL, MongoDB</p>
+          <span class="semi-focus" style="float: left;">Communication:</span><br>
+          <p>Chinese(native), English(fluent), Japanese(semi-fluent), Korean(limited), Cantonese(limited)</p>
+        </div>
+        
+      </div>
+      <div style="padding-bottom: 10rem;"></div>     
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- alert -->
+    <script>
+      function alertFunction() {
+        alert("Coming Soon!");
+      }
+    </script>
+  </body>
+</html>

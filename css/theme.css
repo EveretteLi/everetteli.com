@@ -1,0 +1,58 @@
+
+/* set font family */
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clickable {
+    cursor: pointer;
+    /* display: inline; */
+}
+.clickable:hover {
+    box-shadow: 5px 5px 10px #000000;
+}
+.icons {
+    font-size: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.nav-item:hover{ 
+    background: #0091ff;
+    color: #FFF !important;
+}
+
+.nav-item > a:hover {
+    color: #FFF !important;
+}
+.nav-item {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.dropdown-menu {
+    padding: 0;
+}
+.dropdown-item {
+    text-align: center;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem !important;
+}
+.dropdown-item:hover {
+    background: #0091ff !important;
+    color: #FFF !important;
+}
+
+/* background image */
+#firstPage {
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    position: center;
+}
+#photo {
+    box-shadow: 5px 5px 10px #000000;
+}
+.semi-focus {
+    font-weight: bold;
+    color: gray;
+}
