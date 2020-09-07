@@ -42,7 +42,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="font-size: x-large" onclick="alertFunction()">Transcript</a>
+                    <a class="nav-link" href="#" style="font-size: x-large" data-toggle="modal" data-target="#passwordRequest">Transcript</a>
                 </li>
             </ul>
         </div>
@@ -64,6 +64,38 @@
         <div style="margin-bottom: 10rem;"></div>
 
     </section>
+
+    <section id="popup">
+        <!-- Modal -->
+        <div class="modal fade" id="passwordRequest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header row">
+                        <span class="modal-title col-1 mx-auto"><i class="fas fa-eye-slash"></i></span>
+                        <h5 class="col-11 mx-auto">Password Required</h5>
+                    </div>
+                    <div class="modal-body">
+                        <!-- password entry -->
+                        <form id="passFrom">
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-12 col-form-label">Password</label>
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                    <div id="wrongPs" class="invalid-feedback">Please try again.</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark" onclick="ps_vari()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -80,6 +112,24 @@
     <script>
         function alertFunction() {
             alert("Coming Soon!");
+        }
+    </script>
+    <!-- password  -->
+    <script src="../js/passVarify.js"></script>
+    <script>
+        function ps_vari() {
+            let ps_in = $("#inputPassword").val();
+
+            console.log(ps_in);
+
+            if (varify(ps_in)) {
+                console.log("i'm in if");
+                window.open('transcript.html');
+            }
+            else {
+                console.log("I'm in else");
+                $("#wrongPs").addClass("d-block");
+            }
         }
     </script>
 </body>
