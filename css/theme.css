@@ -17,7 +17,8 @@ body {
     text-align: center;
 }
 .nav-item:hover{ 
-    background: #0091ff;
+    /* background: #0091ff; */
+    background: #000000 !important;
     color: #FFF !important;
 }
 
@@ -39,7 +40,8 @@ body {
     padding: 0.7rem 1.5rem 0.7rem 1.5rem !important;
 }
 .dropdown-item:hover {
-    background: #0091ff !important;
+    /* background: #0091ff !important; */
+    background: #000000 !important;
     color: #FFF !important;
 }
 
