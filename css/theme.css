@@ -54,6 +54,9 @@ body {
 #photo {
     box-shadow: 5px 5px 10px #000000;
 }
+#map {
+    height: 40rem;
+  }
 .semi-focus {
     font-weight: bold;
     color: gray;

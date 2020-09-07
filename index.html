@@ -15,13 +15,18 @@
     <link rel="stylesheet" href="css/theme.css">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/2e5138baf6.js" crossorigin="anonymous"></script>
-
+    <!-- google map -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTATQVAoCxuJn8AHSGj7UUFSn1BYZNcS0&callback=initMap"
+        type="text/javascript">
+    </script>
+    
 
     <title>Everette Li</title>
   </head>
   <header style="font-family: sans-serif;">
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 rounded">
-    <a class="navbar-brand ml-5" href="https://www.bilibili.com/">( ′・ω・' )</a>
+    <a class="navbar-brand ml-5" href="https://space.bilibili.com/4347014">( ′・ω・' )</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -89,7 +94,7 @@
         
         <!-- photo and link -->
         <div class="mx-auto">
-          <h1 class="display-4">More about myself ...</h1>
+          <h1 class="display-4">MORE ABOUT MYSELF ...</h1>
           <div style="padding-bottom: 10rem;"></div>
         </div>
         <div class="mx-auto row">
@@ -210,9 +215,16 @@
           <span class="semi-focus" style="float: left;">Communication:</span><br>
           <p>Chinese(native), English(fluent), Japanese(semi-fluent), Korean(limited), Cantonese(limited)</p>
         </div>
-        
       </div>
-      <div style="padding-bottom: 10rem;"></div>     
+      <div style="padding-bottom: 10rem;"></div>
+
+      <div id="location" class="container row mx-auto">
+        <h1 class="col-12 text-center">FIND ME AT ...</h1>
+        <div id="map" class="col-12 mx-auto"></div>
+      </div>
+      <div style="padding-bottom: 10rem;"></div>
+
+
     </section>
     
     <section id="popup">
@@ -282,6 +294,25 @@
           $("#wrongPs").addClass("d-block");
         }
       }
+    </script>
+    <script>
+      "use strict";
+
+      let map;
+
+      function initMap() {
+        // my location
+        let myLoc = { lat: 37.4003033, lng: -121.9172371 };
+
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: myLoc,
+          zoom: 9
+        });
+        
+        let marker = new google.maps.Marker({ position: myLoc, map: map });
+
+      }
+      $("#map").addClass("d-block");
     </script>
 
 
