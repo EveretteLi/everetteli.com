@@ -1,0 +1,92 @@
+FALL SEMESTER  2016
+                                    UA     UG     UE    GR   GP   GPA
+ARTH  15     Visual Culture         3.0    3.0    3.0   B-   8.1
+CS    46A    Intro to Progrmng      4.0    4.0    4.0   A   16.0
+ENGR  10     Intro to Engr          3.0    3.0    3.0   D    3.0
+MATH  32     Calculus III           3.0    3.0    3.0   B    9.0
+         SEMESTER TOTAL:           13.0   13.0   13.0       36.1  2.776
+         SJSU CUM:                 13.0   13.0   13.0       36.1  2.776
+         EXTERNAL CREDIT:                  0.0    7.0        0.0  0.000
+         ALL COLLEGE:              20.0   13.0   20.0       36.1  2.776
+
+SPRING SEMESTER  2017
+                                    UA     UG     UE    GR   GP   GPA
+CS    46B    Intro to Data Strc     4.0    4.0    4.0   B+  13.2
+ENGL  1A     First Year Writing     3.0    3.0    3.0   C    6.0
+JPN   1A     Elem Japanese          5.0    5.0    5.0   B+  16.5
+MATH  42     Discrete Math          3.0    3.0    3.0   B    9.0
+         SEMESTER TOTAL:           15.0   15.0   15.0       44.7  2.980
+         SJSU CUM:                 28.0   28.0   28.0       80.8  2.885
+         ALL COLLEGE:              35.0   28.0   35.0       80.8  2.885
+
+FALL SEMESTER  2017
+                                    UA     UG     UE    GR   GP   GPA
+AAS   33A    AAS History I          3.0    3.0    3.0   B    9.0
+BIOL  10     The Living World       3.0    3.0    3.0   B-   8.1
+COMM  20N    Pub Sp Nonn Spks       3.0    3.0    3.0   A-  11.1
+CS    146    Data Struct & Alg      3.0    3.0    3.0   A-  11.1
+         SEMESTER TOTAL:           12.0   12.0   12.0       39.3  3.275
+         SJSU CUM:                 40.0   40.0   40.0      120.1  3.002
+         ALL COLLEGE:              47.0   40.0   47.0      120.1  3.002
+
+SPRING SEMESTER  2018
+                                    UA     UG     UE    GR   GP   GPA
+CS    47     Intro to Comp Sytm     3.0    3.0    3.0   B    9.0
+CS    151    Object Orntd Dsgn      3.0    3.0    3.0   A-  11.1
+JPN   1B     Elem Japanese          4.0    4.0    4.0   A   16.0
+MATH  129A   Linear Algebra I       3.0    3.0    3.0   B-   8.1
+         SEMESTER TOTAL:           13.0   13.0   13.0       44.2  3.400
+         SJSU CUM:                 53.0   53.0   53.0      164.3  3.100
+         ALL COLLEGE:              60.0   53.0   60.0      164.3  3.100
+
+FALL SEMESTER  2018
+                                    UA     UG     UE    GR   GP   GPA
+CS    147    Comp Architecture      3.0    0.0    0.0   W    0.0
+CS    152    Progrmng Paradigms     3.0    3.0    3.0   A-  11.1
+CS    156    Intro to Art Intel     3.0    3.0    3.0   B+   9.9
+MATH  142    Intro to Comb          3.0    3.0    3.0   C    6.0
+MATH  161A   Appl Prob & Stats I    3.0    3.0    3.0   C    6.0
+         SEMESTER TOTAL:           15.0   12.0   12.0       33.0  2.750
+         SJSU CUM:                 68.0   65.0   65.0      197.3  3.035
+         ALL COLLEGE:              75.0   65.0   72.0      197.3  3.035
+
+SPRING SEMESTER  2019
+                                    UA     UG     UE    GR   GP   GPA
+AAS   33B    AAS History II         3.0    3.0    3.0   A   12.0
+COMM  45     Media and Culture      3.0    3.0    3.0   C    6.0
+CS    147    Comp Architecture      3.0    3.0    3.0   C    6.0
+GEOG  10     Cultural Geography     3.0    3.0    3.0   C    6.0
+MATH  196W   Intro Math Crypto      3.0    3.0    3.0   A-  11.1
+         SEMESTER TOTAL:           15.0   15.0   15.0       41.1  2.740
+         SJSU CUM:                 83.0   80.0   80.0      238.4  2.980
+         ALL COLLEGE:              90.0   80.0   87.0      238.4  2.980
+
+FALL SEMESTER  2019
+                                    UA     UG     UE    GR   GP   GPA
+CS    149    Operating Systems      3.0    3.0    3.0   B    9.0
+CS    154    Formal Lang & Comput   3.0    3.0    3.0   A+  12.0
+CS    166    Information Security   3.0    3.0    3.0   A   12.0
+GEOL  7      Earth Time and Life    4.0    4.0    4.0   B   12.0
+         SEMESTER TOTAL:           13.0   13.0   13.0       45.0  3.461
+         SJSU CUM:                 96.0   93.0   93.0      283.4  3.047
+         ALL COLLEGE:             103.0   93.0  100.0      283.4  3.047
+
+SPRING SEMESTER  2020
+                                    UA     UG     UE    GR   GP   GPA
+CS    100W   Writing Workshop       3.0    6.0    3.0   CR   0.0
+CS    158A   Computer Networks      3.0    3.0    3.0   A   12.0
+CS    185C   Adv Prac Comp Topics   3.0    3.0    3.0   A+  12.0
+KIN   27A    Begin Table Tennis     1.0    2.0    1.0   CR   0.0
+PHIL  134    Computers, Ethics, S   3.0    3.0    3.0   A   12.0
+RTVF  110    Media and Culture      3.0    3.0    3.0   A   12.0
+         SEMESTER TOTAL:           16.0   12.0   16.0       48.0  4.000
+         SJSU CUM:                112.0  105.0  109.0      331.4  3.156
+         ALL COLLEGE:             119.0  105.0  116.0      331.4  3.156
+         
+SUMMER SEMESTER  2020
+                                    UA     UG     UE    GR   GP   GPA
+GEOL  112    Earthquakes Volcan     3.0    3.0    3.0   A   12.0
+CS    190    Internship Project     1.0    1.0    1.0   B+   3.3
+         SEMESTER TOTAL:            4.0    4.0    4.0       15.3  3.825
+         SJSU CUM:                116.0  109.0  113.0      346.7  3.180
+         ALL COLLEGE:             123.0  109.0  120.0      346.7  3.180
