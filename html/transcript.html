@@ -52,7 +52,7 @@
     </nav>
 </header>
 
-<body>
+<body onload="make_table()">
     <section id="main">
         <div style="padding-top: 5rem;"></div>
         <div class="container row text-center mx-auto">
@@ -60,11 +60,12 @@
                 <h1 class="mx-auto">TRANSCRIPT</h1>
             </div>
             <div class="col-12">
-                <table class="table">
+
+                <table class="table" id="fa16">
                     <thead>
                         <tr>
                             <th scope="col"></th>
-                            <th scope="col"></th>
+                            <th scope="col">FALL SEMESTER 2016</th>
                             <th scope="col">UA</th>
                             <th scope="col">UG</th>
                             <th scope="col">UE</th>
@@ -73,66 +74,224 @@
                             <th scope="col">GPA</th>
                         </tr>
                     </thead>
-                    <tbody onload="make_table()">
-                        <tr>
-                            <th scope="row">FALL SEMESTER 2016</th>
-                        </tr>
-                        <div id="fa16"></div>
-                        <tr>
-                            <th scope="row">SPRING SEMESTER 2017</th>
-                        </tr>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="sp17"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">2.776</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="sp17">
+                    <thead>
                         <tr>
-                            <th scope="row">FALL SEMESTER 2017</th>
+                            <th scope="col"></th>
+                            <th scope="col">SPRING SEMESTER 2017</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="fa17"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">2.885</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="fa17">
+                    <thead>
                         <tr>
-                            <th scope="row">SPRING SEMESTER 2018</th>
+                            <th scope="col"></th>
+                            <th scope="col">FALL SEMESTER 2017</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="sp18"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.002</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="sp18">
+                    <thead>
                         <tr>
-                            <th scope="row">FALL SEMESTER 2018</th>
+                            <th scope="col"></th>
+                            <th scope="col">SPRING SEMESTER 2018</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="fa18"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.100</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="fa18">
+                    <thead>
                         <tr>
-                            <th scope="row">SPRING SEMESTER 2019</th>
+                            <th scope="col"></th>
+                            <th scope="col">FALL SEMESTER 2018</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="sp19"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.035</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="sp19">
+                    <thead>
                         <tr>
-                            <th scope="row">FALL SEMESTER 2019</th>
+                            <th scope="col"></th>
+                            <th scope="col">SPRING SEMESTER 2019</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="fa19"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">2.980</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="fa19">
+                    <thead>
                         <tr>
-                            <th scope="row">SPRING SEMESTER 2020</th>
+                            <th scope="col"></th>
+                            <th scope="col">FALL SEMESTER 2019</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="sp20"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.047</td>
                         </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="sp20">
+                    <thead>
                         <tr>
-                            <th scope="row">SUMMER SEMESTER 2020</th>
+                            <th scope="col"></th>
+                            <th scope="col">SPRING SEMESTER 2020</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th scope="row"></th>
-                            <div id="su20"></div>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.156</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="su20">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">SUMMER SEMESTER 2020</th>
+                            <th scope="col">UA</th>
+                            <th scope="col">UG</th>
+                            <th scope="col">UE</th>
+                            <th scope="col">GR</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">GPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td scope="row">3.180</td>
                         </tr>
                     </tbody>
                 </table>
@@ -174,25 +333,18 @@
             let match_list = [fa16, sp17, fa17, sp18, fa18, sp19, fa19, sp20, su20];
 
             for (let i = 0; i < id_list.length; i++) {
-                // console.log(id_list[i]);
-                for (let j = 0; j < Object.keys(match_list[i]).length; j++) {
-                    let ob = match_list[i];
-                    // console.log(ob);
-                    for (let k = 0; k < Object.keys(ob).length; k++) {
-                        console.log(ob[k]);
-                        let line = ob[k];
-                        let htmlStr = $(`#${id_list[i]}`).html();
-                        htmlStr += "<tr>";
-                        for (let q = 0; q < line.length; q++) {
-                            console.log(line[q]);
-                            htmlStr += "<td>" + line[q] + "</td>";
-                        }
-                        htmlStr += "</tr>";
-
-                        $(`#${id_list[i]}`).html(htmlStr);
+                let ob = match_list[i];
+                let htmlStr = $(`#${id_list[i]}`).html();
+                for (let k = 0; k < Object.keys(ob).length; k++) {
+                    let line = ob[k];
+                    htmlStr += '<tr><th scope="row"></th>';
+                    for (let q = 0; q < line.length; q++) {
+                        console.log(line[q]);
+                        htmlStr += "<td>" + line[q] + "</td>";
                     }
-                    
+                    htmlStr += '</tr>';
                 }
+                $(`#${id_list[i]}`).html(htmlStr);
             }
         }
     </script>
