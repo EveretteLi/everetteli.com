@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="../css/theme.css">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/2e5138baf6.js" crossorigin="anonymous"></script>
-    <title>Everette Li - Resume</title>
+    <title>Everette Li - Zero Day Detection</title>
 </head>
 <header style="font-family: sans-serif;">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 rounded">
-        <a class="navbar-brand ml-5" href="https://space.bilibili.com/4347014">( = v = )</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand ml-5" href="https://space.bilibili.com/4347014">（ = ω=）✎＿</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,13 +36,17 @@
                     <!-- <a class="nav-link" href="#" style="font-size: x-large">Projects</a> -->
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" style="font-size: x-large"> Projects </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item nav-link" href="zeroday.html">Zero-day detection</a></li>
-                        <li><a class="dropdown-item nav-link" href="videoPipe.html">Auto Video Pipeline</a></li>
-                        <li><a class="dropdown-item nav-link" href="http://www.big-dataservice.net" target="_blank">Big Data Service</a></li>
+                        <li><a class="dropdown-item nav-link" href="#">Zero-day detection</a>
+                        </li>
+                        <li><a class="dropdown-item nav-link" href="videoPipe.html">Auto Video Pipeline</a>
+                        </li>
+                        <li><a class="dropdown-item nav-link" href="http://www.big-dataservice.net" target="_blank">Big
+                                Data Service</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="font-size: x-large" data-toggle="modal" data-target="#passwordRequest">Transcript</a>
+                    <a class="nav-link" href="#" style="font-size: x-large" data-toggle="modal"
+                        data-target="#passwordRequest">Transcript</a>
                 </li>
             </ul>
         </div>
@@ -52,19 +56,56 @@
 <body>
     <section id="main">
         <div style="padding-top: 5rem;"></div>
-        <div class="container row text-center mx-auto">
-            
-            <div class="col-12">
-                <h1 class="mx-auto">RESUME</h1>
+        <div class="container row mx-auto">
+            <div class="col-12 text-center">
+                <h1 class="mx-auto">Malware Detection with Machine Learning</h1>
+            </div>
+            <div>
+                <hr>
+                <h4>Introduction</h4>
+                <p class="mx-auto text-justify">Listing below are 2 researches I've conducted on computer malware detaction. 
+                    Each research addresses a different topic in the field of malware study with Machine Learning.</p>
+            </div>
+            <div>
+                <hr>
+                <h3>Zero-day Detection: Classification Experiments on Malware with Small Sample Size</h3>
+                <br>
+                <h4>Abstract</h4>
+                <p class="mx-auto text-justify">”Zero-day”, in computer security, refer to the situation when the computer system has no knowledge on a
+                possible incoming attack. The ”zero” here is indicating that no previous warning or flag has risen for a security system
+                to prepare. This paper conduct experiments on ”Zero-day” malware classification. The ”security system” here is a Deep
+                Neural Network model that has been trained on detect 3 different types of malware - Zbot, Winwebsec and Zeroaccess. The
+                experiment focus on testing the robustness of the DNN model under small amount of training data. In order to simulate
+                the real-world ”Zero-day” scenario where only a few data is available.</p>
+            </div>
+            <div><hr><h3>Full Paper</h3><br></div>
+            <div class="col-12 embed-responsive embed-responsive-1by1 mx-auto">
+                <iframe class="embed-responsive-item text-center" src="../assets/zero-day.pdf"></iframe>
+                <div style="padding-bottom: 15rem;"></div>
+            </div>
+            <div>
+                <div style="margin-top: 10rem;"></div>
+                <hr>
+                <h3>Malware Classication with Ensemble Learning</h3>
+                <br>
+                <h4>Abstract</h4>
+                <p class="mx-auto text-justify">Ensemble methods are vastly used technique in Machine Learning. In order to obtain the best performing model, common
+                ensemble methods like Bagging, Boosting and Stacking are applied in model selection. In this article, a malware
+                classication model will be discussed. This model is a pipeline that combines HMM and SVM together. Experiments are
+                conducted, including ensemble learning methods for HMM, SVM selection and pick of hyper-parameters, to understand and to
+                analyze this pipeline model.</p>
+            </div>
+            <div>
+                <hr>
+                <h3>Full Paper</h3><br>
             </div>
             <div class="col-12 embed-responsive embed-responsive-1by1 mx-auto">
-                <iframe class="embed-responsive-item text-center" src="../assets/resume.pdf"></iframe>
+                <iframe class="embed-responsive-item text-center" src="../assets/ensemble.pdf"></iframe>
+                <div style="padding-bottom: 15rem;"></div>
             </div>
         </div>
         <div style="margin-bottom: 10rem;"></div>
-
     </section>
-
     <section id="popup">
         <!-- Modal -->
         <div class="modal fade" id="passwordRequest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -81,7 +122,8 @@
                             <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-12 col-form-label">Password</label>
                                 <div class="col-sm-12">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Password">
                                     <div id="wrongPs" class="invalid-feedback">Please try again.</div>
                                 </div>
                             </div>
@@ -95,7 +137,6 @@
             </div>
         </div>
     </section>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -107,8 +148,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    
-        <!-- alert -->
+    <!-- alert -->
     <script>
         function alertFunction() {
             alert("Coming Soon!");
