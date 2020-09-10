@@ -17,4 +17,3 @@ io.question("plaintext password: ", (ps) => {
     console.log(`cyphortext: ${hash(ps)}`);
     io.close();
 })
-// 9afd09e97ba4c077952dd5939676b5fc0fc7063a3e4ff5156e78c463522efad2

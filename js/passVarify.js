@@ -1,5 +1,5 @@
 
-const PASSWORD_HASH = "amFja3podQ==";
+const PASSWORD_HASH = "ZnJhbmtidXR0";
 
 function varify(ps) {
     console.log(ps);
