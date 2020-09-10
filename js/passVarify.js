@@ -1,5 +1,5 @@
 
-const PASSWORD_HASH = "ZnJhbmtidXR0";//frankbutt
+const PASSWORD_HASH = "THlwMTk5NzEyMTk=";
 
 function varify(ps) {
     let psw = window.btoa(ps);
