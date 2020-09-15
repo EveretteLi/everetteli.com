@@ -10,5 +10,4 @@ Please follow the steps below for local access.
 * launch index.html in any browser, except IE
 
 ### Notes
-* password to transcript: frankbutt
 * please click "Submit" button instead of hitting Enter while submitting password.
